@@ -1,0 +1,19 @@
+[project]
+name = "juego-gato-flet"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "haza507", email = "axelm2005@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "flet>=0.86.4",
+]
+
+[project.scripts]
+juego-gato-flet = "juego_gato_flet:main"
+
+[build-system]
+requires = ["uv_build>=0.12.0,<0.13.0"]
+build-backend = "uv_build"
